@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    @apply bg-zinc-900 text-zinc-500;
+  }
+}
+
+#container-text {
+  display: flex;
+}
+
+.scale-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}

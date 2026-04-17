@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "tw:dev": "npx @tailwindcss/cli -i ./style.css -o ./dist/global.css --watch",
+    "dev": "npx webpack ./main.js --watch",
+    "build": "npx webpack ./main.js --mode production"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "random-string": "^0.2.0",
+    "tailwindcss": "^4.2.2",
+    "typed.js": "^3.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.106.1",
+    "webpack-cli": "^7.0.2"
+  }
+}
